@@ -9,7 +9,7 @@ $(function () {
   monsterScroll.forEach(
     (item) => (item.style.animationDelay = `${Math.random() * 1 + 0.4}s`)
   )
-//TODO There is a neddd to update this function!
+//TODO You have to rewrite this function!
   function inViewPort(el) {
     let rect = el.getBoundingClientRect()
     return (
