@@ -15,6 +15,8 @@ function js(cb) {
   cb()
 }
 
+//TODO: #3 add additional function to test stuff
+
 function watcher(cb) {
   watch(`${origin}/**/*.html`).on('change', series(html, browserSync.reload))
   watch(`${origin}/**/*.css`).on('change', series(css, browserSync.reload))
